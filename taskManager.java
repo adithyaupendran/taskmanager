@@ -10,8 +10,8 @@ import java.util.Date;
 public class TaskManager extends JFrame {
 
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/task_manager";
-    private static final String USERNAME = "adhi";
-    private static final String PASSWORD = "tellM3why";
+    private static final String USERNAME = <"your username">;
+    private static final String PASSWORD = <"Password">;
 
     private ArrayList<Task> tasks = new ArrayList<>();
     private JTextField taskNameField;
